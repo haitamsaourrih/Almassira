@@ -1490,4 +1490,15 @@ a:focus {
   opacity: 1;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+.play-btn{
+  width: 75px;
+  top: 50%;left: 65%;
+  position: absolute;
+}
+
+.modal-content{
+  align-items: center;
+}
+.modal-dialog{
+  align-items: center;
+}
