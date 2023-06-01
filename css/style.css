@@ -1492,8 +1492,13 @@ a:focus {
 
 .play-btn{
   width: 75px;
-  top: 50%;left: 65%;
+  top: 50%;left: 70%;
   position: absolute;
+  cursor: pointer;
+  opacity: 0;
+}
+.container:hover .play-btn{
+  opacity: 1;
 }
 
 .modal-content{
